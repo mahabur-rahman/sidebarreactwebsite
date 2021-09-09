@@ -1,0 +1,57 @@
+//  ======  1199px ======
+@media (max-width: 1199px) {
+    #mixWithSidebar .sidebar {
+        width: 30%;
+        z-index: 11;
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        transition: .4s;
+        -webkit-transition: .4s;
+        -moz-transition: .4s;
+        -ms-transition: .4s;
+        -o-transition: .4s;
+    }
+    #mixWithSidebar {
+        .nav-toggle {
+            transform: translateX(0);
+            -webkit-transform: translateX(0);
+            -moz-transform: translateX(0);
+            -ms-transform: translateX(0);
+            -o-transform: translateX(0);
+        }
+    }
+    #mixWithSidebar .main-content {
+        width: 100%;
+        margin-left: 0;
+    }
+    #mixWithSidebar {
+        // toggle button 
+        .toggleBtn {
+            .toggleBars svg {
+                display: block;
+            }
+        }
+    }
+    #contact iframe {
+        width: 100%;
+    }
+}
+
+//  ======  575px ======
+@media (max-width: 575px) {
+    #mixWithSidebar .sidebar {
+        width: 53%;
+    }
+    #hero .hero-content .hero-info h5 {
+        font-size: 15px;
+    }
+    #about,
+    #portfolio,
+    #blog,
+    #contact {
+        padding: 70px 0;
+    }
+}
